@@ -16,7 +16,7 @@ const corsOptions = {
   };
 
 // Middleware to enable CORS
-app.use(cors());
+app.use(cors(corsOptions));
 
 const PORT = process.env.PORT || 3000;
 
